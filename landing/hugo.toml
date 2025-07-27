@@ -1,0 +1,4 @@
+baseURL = 'https://alexeytrekin.github.io/dukescup/'
+languageCode = 'en-us'
+title = 'Dukes Cup'
+theme = 'ananke'
