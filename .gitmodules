@@ -1,0 +1,12 @@
+[submodule "landing/themes/event"]
+	path = landing/themes/event
+	url = https://github.com/medialesson/hugo-theme-event.git
+[submodule "landing/themes/universal"]
+	path = landing/themes/universal
+	url = https://github.com/devcows/hugo-universal-theme.git
+[submodule "landing/themes/hextra"]
+	path = landing/themes/hextra
+	url = https://github.com/imfing/hextra.git
+[submodule "landing/themes/PaperMod"]
+	path = landing/themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git

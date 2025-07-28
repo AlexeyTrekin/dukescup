@@ -1,4 +1,104 @@
 baseURL = 'https://alexeytrekin.github.io/dukescup/'
 languageCode = 'en-us'
-title = 'Dukes Cup'
-theme = 'ananke'
+title = "Duke's Cup 2025"
+theme = "PaperMod"
+
+# Set homepage to show only _index.md content
+paginate = 0
+disableKinds = ["RSS", "404"]
+
+enableRobotsTXT = true
+enableGitInfo = true
+enableEmoji = true
+
+[params]
+  description = "Historical European Martial Arts Tournament featuring Duelling Sabre, Military Sabre, and Sword and Buckler"
+  
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = false
+  ShowBreadCrumbs = false
+  ShowCodeCopyButtons = false
+  ShowWordCount = false
+  ShowRssButtonInSectionTermList = false
+  UseHugoToc = false
+  disableSpecial1stPost = true
+  disableScrollToTop = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = false
+  tocopen = false
+  
+  # Disable homepage content listing
+  mainSections = []
+
+  # Enable profile mode for homepage
+  [params.profileMode]
+    enabled = false
+    title = "Duke's Cup 2025"
+    subtitle = "Historical European Martial Arts Tournament in Serbia"
+    imageUrl = "logo_2025.jpg"
+    imageWidth = 100
+    imageHeight = 100
+    imageTitle = "Duke's Cup Logo"
+    
+    [[params.profileMode.buttons]]
+      name = "🗡️ Apply Now"
+      url = "https://hemagon.com/tournament/WinterDukesCup"
+
+  [params.assets]
+    favicon = ""
+
+  [params.label]
+    text = "Duke's Cup 2025"
+    icon = ""
+    iconHeight = 35
+
+[params.footer]
+  text = '''
+  <div style="text-align: center; margin: 5px 0; padding: 8px 0;">
+    <h4 style="margin: 0 0 8px 0; font-size: 1em;">🏛️ Our Sponsors</h4>
+    <div style="display: flex; justify-content: center; align-items: center; gap: 15px; flex-wrap: wrap;">
+      <img src="/dukescup/sponsors/kvetun.png" alt="Kvetun Armoury" style="height: 60px; max-width: 90px; object-fit: contain; background: white; padding: 3px; border-radius: 3px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+      <img src="/dukescup/sponsors/spes.png" alt="SPES" style="height: 60px; max-width: 90px; object-fit: contain; background: white; padding: 3px; border-radius: 3px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+    </div>
+  </div>
+  '''
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    identifier = "applications"
+    name = "Applications"
+    url = "/applications/"
+    weight = 20
+  [[menu.main]]
+    identifier = "rules"
+    name = "Rules"
+    url = "/rules/"
+    weight = 30
+  [[menu.main]]
+    identifier = "timetable"
+    name = "Timetable"
+    url = "/timetable/"
+    weight = 40
+  [[menu.main]]
+    identifier = "venue"
+    name = "Venue & travel"
+    url = "/venue/"
+    weight = 50
+  [[menu.main]]
+    identifier = "events"
+    name = "Previous events"
+    url = "/events/"
+    weight = 60
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

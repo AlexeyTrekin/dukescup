@@ -1,0 +1,52 @@
+/* Compact profile layout to fit everything on screen */
+.profile {
+    min-height: calc(100vh - var(--header-height) - 200px) !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+.profile .profile_inner {
+    gap: 5px !important;
+    padding: 20px 0 !important;
+}
+
+.profile .profile_inner img {
+    margin-bottom: 8px !important;
+}
+
+.profile .profile_inner h1 {
+    font-size: 1.6em !important;
+    margin: 5px 0 !important;
+}
+
+.profile .profile_inner span {
+    font-size: 0.9em !important;
+    margin: 0 0 10px 0 !important;
+}
+
+.buttons {
+    margin-top: 8px !important;
+}
+
+.button {
+    padding: 8px 16px !important;
+    font-size: 1em !important;
+    margin: 4px !important;
+}
+
+/* Make footer more compact and ensure it's visible */
+.footer {
+    padding: 8px 0 !important;
+    margin-top: 10px !important;
+    position: relative !important;
+}
+
+/* Reduce social icons spacing if present */
+.social-icons {
+    margin: 5px 0 !important;
+}
+
+/* Ensure the main container doesn't take full height */
+.main {
+    min-height: auto !important;
+}
