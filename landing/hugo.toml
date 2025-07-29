@@ -6,11 +6,6 @@ theme = "PaperMod"
 # Set homepage to show only _index.md content
 paginate = 0
 
-# Configure RSS to avoid compatibility issues
-[services]
-  [services.rss]
-    limit = 10
-
 enableRobotsTXT = true
 enableGitInfo = true
 enableEmoji = true
@@ -25,7 +20,6 @@ enableEmoji = true
   ShowCodeCopyButtons = false
   ShowWordCount = false
   ShowRssButtonInSectionTermList = false
-  disableRSS = true
   UseHugoToc = false
   disableSpecial1stPost = true
   disableScrollToTop = false
