@@ -5,7 +5,11 @@ theme = "PaperMod"
 
 # Set homepage to show only _index.md content
 paginate = 0
-disableKinds = ["RSS"]
+
+# Configure RSS to avoid compatibility issues
+[services]
+  [services.rss]
+    limit = 10
 
 enableRobotsTXT = true
 enableGitInfo = true
