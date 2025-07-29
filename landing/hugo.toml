@@ -5,6 +5,7 @@ theme = "PaperMod"
 
 # Set homepage to show only _index.md content
 paginate = 0
+disableKinds = ["RSS"]
 
 enableRobotsTXT = true
 enableGitInfo = true
