@@ -25,6 +25,7 @@ enableEmoji = true
   ShowCodeCopyButtons = false
   ShowWordCount = false
   ShowRssButtonInSectionTermList = false
+  disableRSS = true
   UseHugoToc = false
   disableSpecial1stPost = true
   disableScrollToTop = false
