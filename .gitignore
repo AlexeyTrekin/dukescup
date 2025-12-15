@@ -1,3 +1,6 @@
+# Images and videos
+media/
+
 # Hugo generated files
 landing/public/
 landing/resources/_gen/

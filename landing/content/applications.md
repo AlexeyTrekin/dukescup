@@ -1,29 +1,20 @@
-+++
-title = "Applications"
-date = "2025-07-27"
-draft = false
-+++
-
-{{< figure src="logo_2025.jpg" alt="Duke's Cup 2025 Logo" class="hero-logo" >}}
-
-# Current Applications
 
 ## Application Status
 **Applications for Dukes Cup 2026 are now OPEN!**
 
-**Registration Deadline**: March 15, 2026  
-**Competition Date**: April 20-21, 2026
+**Registration Deadline**: January 31, 2026  
+**Competition Date**: February 7-8, 2026
 
 ## How to Apply
-1. **Register at Hemagon**
-2. **Apply for the tournament**
-[HEMAGON event page link]
+1. **[Register at Hemagon](https://hemagon.com/registration)**
+2. <a href="https://hemagon.com/tournament/dukes-cup-2026" style="display: inline-block; background-color: #1e40af; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; margin: 10px 0;">🗡️ Apply for Duke's Cup 2026</a>
 
 
 ## Current Statistics
-[link to the corresponding HEMAGON page]
+
+[See current list on Hemagon](https://hemagon.com/tournament/dukes-cup-2026/applications/saber-open)
 
 ## Questions?
-Contact us at **dukescup@gmail.com** or check our [FAQ section](/dukescup/faq).
+Contact us at **dukescup@gmail.com** or see our [facebook page](https://www.facebook.com/share/1BguCP4gDk/).
 
 [← Back to Home](/dukescup/)

@@ -9,7 +9,7 @@ description = "Explore the history of Duke's Cup tournaments from our inaugural 
 
 ### Duke's Cup 2025 ✅ Recently Completed
 
-{{< figure src="2025_1.jpg" alt="Duke's Cup 2025" caption="Duke's Cup 2025 - Our biggest tournament yet!" >}}
+{{< figure src="https://dukes-cup-media.s3.amazonaws.com/photos_2025/2025_1.jpg" alt="Duke's Cup 2025" caption="Duke's Cup 2025 - Our biggest tournament yet!" >}}
 
 **Key Statistics:**
 
@@ -36,6 +36,6 @@ Our first HEMA tournament hosted at the Red Raven's historical festival
 Keep up with Duke's Cup news and announcements:
 
 - 📧 **Email:** dukescup@gmail.com
-- 📱 **Social Media:** [Follow us](#)
+- 📱 **Social Media:** [Follow us](https://www.facebook.com/share/1BguCP4gDk)
 
 *Thank you for being part of the Duke's Cup community!*

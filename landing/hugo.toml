@@ -1,6 +1,6 @@
 baseURL = 'https://alexeytrekin.github.io/dukescup/'
 languageCode = 'en-us'
-title = "Duke's Cup 2025"
+title = "Duke's Cup 2026"
 theme = "PaperMod"
 
 # Set homepage to show only _index.md content
@@ -35,9 +35,9 @@ enableEmoji = true
   # Enable profile mode for homepage
   [params.profileMode]
     enabled = false
-    title = "Duke's Cup 2025"
+    title = "Duke's Cup 2026"
     subtitle = "Historical European Martial Arts Tournament in Serbia"
-    imageUrl = "logo_2025.jpg"
+    imageUrl = "https://dukes-cup-media.s3.amazonaws.com/logo/logo_2026_main.jpg"
     imageWidth = 100
     imageHeight = 100
     imageTitle = "Duke's Cup Logo"
@@ -50,7 +50,7 @@ enableEmoji = true
     favicon = ""
 
   [params.label]
-    text = "Duke's Cup 2025"
+    text = "Duke's Cup 2026"
     icon = ""
     iconHeight = 35
 
@@ -59,8 +59,8 @@ enableEmoji = true
   <div style="text-align: center; margin: 5px 0; padding: 8px 0;">
     <h4 style="margin: 0 0 8px 0; font-size: 1em;">🏛️ Our Sponsors</h4>
     <div style="display: flex; justify-content: center; align-items: center; gap: 15px; flex-wrap: wrap;">
-      <img src="/dukescup/sponsors/kvetun.png" alt="Kvetun Armoury" style="height: 60px; max-width: 90px; object-fit: contain; background: white; padding: 3px; border-radius: 3px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
-      <img src="/dukescup/sponsors/spes.png" alt="SPES" style="height: 60px; max-width: 90px; object-fit: contain; background: white; padding: 3px; border-radius: 3px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+      <img src="https://dukes-cup-media.s3.amazonaws.com/sponsors/kvetun.png" alt="Kvetun Armoury" style="height: 60px; max-width: 90px; object-fit: contain; background: white; padding: 3px; border-radius: 3px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+      <img src="https://dukes-cup-media.s3.amazonaws.com/sponsors/spes.png" alt="SPES" style="height: 60px; max-width: 90px; object-fit: contain; background: white; padding: 3px; border-radius: 3px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
     </div>
   </div>
   '''
@@ -101,3 +101,13 @@ enableEmoji = true
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+# Mount local media folder for development (uses ../media/ folder)
+# This lets you preview external images locally before uploading to S3
+[module]
+  [[module.mounts]]
+    source = "static"
+    target = "static"
+  [[module.mounts]]
+    source = "../media"
+    target = "static/media"

@@ -4,6 +4,11 @@ draft = false
 
 # Venue
 
-Novi Sad
+The tournament will take place in Novi Sad, Serbia.
+Venue to be announced.
 
 # Travel
+
+The best way to reach Novi Sad is [by train](https://w3.srbvoz.rs/redvoznje//direktni/BEOGRAD%20CENTAR/16052/PETROVARADIN/16807/07.02.2026/0000/sr) (Novi Sad station is closed, the train comes to Petrovaradin station). 
+
+You can call a taxi using the Yandex Go app or call by phone (Crveni taxi +38121 445 577, Pan taxi +38121 455 555, Sos taxi +38121 450 400), it will cost you less than 1000 dinars/ 10 euro.
