@@ -13,6 +13,9 @@ enableEmoji = true
 [params]
   description = "Historical European Martial Arts Tournament featuring Duelling Sabre, Military Sabre, and Sword and Buckler"
   
+  # Disable JSON-LD schema to avoid baseURL issues
+  disableAnchoredHeadings = false
+  
   ShowReadingTime = false
   ShowShareButtons = false
   ShowPostNavLinks = false
