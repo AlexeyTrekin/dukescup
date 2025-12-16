@@ -13,7 +13,7 @@ description = "Explore the history of Duke's Cup tournaments from our inaugural 
 
 **Key Statistics:**
 
-**[Read Full 2025 Event Summary →](/dukescup/events/dwc_2025/)**
+**[Read Full 2025 Event Summary →]({{< relref "events/dwc_2025" >}})**
 
 ---
     
@@ -23,11 +23,11 @@ Our first HEMA tournament hosted at the Red Raven's historical festival
 
 **Highlights:**
 
-**[View 2024 Highlights →](/dukescup/events/dc_2024/)**
+**[View 2024 Highlights →]({{< relref "events/dc_2024" >}})**
 
 ---
 
-**[Apply for Duke's Cup 2026 →](/dukescup/applications/)**
+**[Apply for Duke's Cup 2026 →]({{< relref "applications" >}})**
 
 ---
 
