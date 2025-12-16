@@ -4,7 +4,7 @@ draft = false
 
 # Importand dates
 
-01.10.2025: Applications open
+25.08.2025: Applications open
 
 22.12.2025 - 31.01.2026: Payments processing
 

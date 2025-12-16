@@ -98,3 +98,47 @@ table tr:nth-child(even) {
 :root[data-theme="dark"] table tr:nth-child(even) {
   background-color: rgba(255, 255, 255, 0.05);
 }
+
+/* Fix menu overflow - allow horizontal scroll instead of wrapping */
+#menu {
+  gap: 10px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch; /* Smooth scroll on iOS */
+  scrollbar-width: none; /* Hide scrollbar Firefox */
+  -ms-overflow-style: none; /* Hide scrollbar IE/Edge */
+}
+
+#menu::-webkit-scrollbar {
+  display: none; /* Hide scrollbar Chrome/Safari */
+}
+
+#menu li + li {
+  margin-inline-start: 12px;
+}
+
+#menu a {
+  font-size: 16px;
+}
+
+/* Smaller font on medium screens */
+@media (max-width: 850px) {
+  #menu a {
+    font-size: 14px;
+  }
+  
+  #menu li + li {
+    margin-inline-start: 8px;
+  }
+}
+
+/* Even smaller on small screens */
+@media (max-width: 600px) {
+  #menu a {
+    font-size: 13px;
+  }
+  
+  #menu li + li {
+    margin-inline-start: 6px;
+  }
+}

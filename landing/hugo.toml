@@ -95,10 +95,15 @@ enableEmoji = true
     url = "/venue/"
     weight = 50
   [[menu.main]]
+    identifier = "payment"
+    name = "Payment"
+    url = "/payment/"
+    weight = 60
+  [[menu.main]]
     identifier = "events"
     name = "Previous events"
     url = "/events/"
-    weight = 60
+    weight = 70
 
 [markup]
   [markup.goldmark]

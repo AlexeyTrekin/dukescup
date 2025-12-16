@@ -1,0 +1,195 @@
+{{- $baseURL := .Get "base" | default "" -}}
+{{- $thumbURL := .Get "thumbBase" | default (printf "%sthumbnails/" $baseURL) -}}
+{{- $imagesParam := .Get "images" | default "" -}}
+{{- $images := split $imagesParam "," -}}
+
+<div class="gallery-grid">
+  {{- range $index, $img := $images -}}
+    {{- $img = trim $img " " -}}
+    {{- if $img -}}
+      <div class="gallery-item" onclick="openLightbox({{ $index }})">
+        <img src="{{ $thumbURL }}{{ $img }}" alt="Photo {{ add $index 1 }}" loading="lazy">
+      </div>
+    {{- end -}}
+  {{- end -}}
+</div>
+
+<!-- Lightbox -->
+<div id="lightbox" class="lightbox" onclick="closeLightbox(event)">
+  <span class="lightbox-close" onclick="closeLightbox(event)">&times;</span>
+  <span class="lightbox-nav lightbox-prev" onclick="changeImage(-1); event.stopPropagation();">&#10094;</span>
+  <img id="lightbox-img" src="" alt="Gallery image">
+  <span class="lightbox-nav lightbox-next" onclick="changeImage(1); event.stopPropagation();">&#10095;</span>
+</div>
+
+<script>
+(function() {
+  const images = [
+    {{- range $index, $img := $images -}}
+      {{- $img = trim $img " " -}}
+      {{- if $img -}}
+        {{ if $index }},{{ end }}"{{ $baseURL }}{{ $img }}"
+      {{- end -}}
+    {{- end -}}
+  ];
+
+  let currentImageIndex = 0;
+
+  window.openLightbox = function(index) {
+    currentImageIndex = index;
+    const lightbox = document.getElementById('lightbox');
+    const img = document.getElementById('lightbox-img');
+    if (lightbox && img) {
+      if (lightbox.parentElement !== document.body) {
+        document.body.appendChild(lightbox);
+      }
+      lightbox.classList.add('active');
+      img.src = images[currentImageIndex];
+      document.body.style.overflow = 'hidden';
+    }
+  };
+
+  window.closeLightbox = function(event) {
+    if (event.target.id === 'lightbox' || event.target.classList.contains('lightbox-close')) {
+      document.getElementById('lightbox').classList.remove('active');
+      document.body.style.overflow = 'auto';
+    }
+  };
+
+  window.changeImage = function(direction) {
+    currentImageIndex += direction;
+    if (currentImageIndex < 0) currentImageIndex = images.length - 1;
+    if (currentImageIndex >= images.length) currentImageIndex = 0;
+    document.getElementById('lightbox-img').src = images[currentImageIndex];
+  };
+
+  document.addEventListener('keydown', function(e) {
+    const lightbox = document.getElementById('lightbox');
+    if (lightbox && lightbox.classList.contains('active')) {
+      if (e.key === 'Escape') closeLightbox({ target: lightbox });
+      if (e.key === 'ArrowLeft') changeImage(-1);
+      if (e.key === 'ArrowRight') changeImage(1);
+    }
+  });
+})();
+</script>
+
+<style>
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.gallery-item {
+  aspect-ratio: 4/3;
+  overflow: hidden;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #e0e0e0;
+  position: relative;
+}
+
+.gallery-item::before {
+  content: '📷';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+  opacity: 0.4;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  position: relative;
+  z-index: 1;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+.lightbox {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.95);
+  z-index: 9999;
+  justify-content: center;
+  align-items: center;
+}
+
+.lightbox.active {
+  display: flex;
+}
+
+.lightbox img {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+.lightbox-close:hover {
+  color: #ccc;
+}
+
+.lightbox-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 50px;
+  color: white;
+  cursor: pointer;
+  padding: 20px;
+  user-select: none;
+  z-index: 10000;
+}
+
+.lightbox-nav:hover {
+  color: #ccc;
+}
+
+.lightbox-prev {
+  left: 20px;
+}
+
+.lightbox-next {
+  right: 20px;
+}
+
+@media (max-width: 768px) {
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 6px;
+  }
+  
+  .lightbox-nav {
+    font-size: 30px;
+    padding: 15px;
+  }
+  
+  .lightbox-close {
+    font-size: 30px;
+    top: 15px;
+    right: 20px;
+  }
+}
+</style>

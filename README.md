@@ -31,6 +31,14 @@ Media files are stored in S3 bucket `dukes-cup-media` and mounted locally via Hu
 aws s3 sync s3://dukes-cup-media ./media
 ```
 
+**Generate thumbnails** 
+
+```bash
+for img in *.jpg; do
+  [ -f "$img" ] && magick "$img" -resize 200x200^ -gravity center -extent 200x200 -quality 85 "thumbnails/$img"
+done
+```
+
 **Upload new media to S3:**
 ```bash
 aws s3 sync ./media s3://dukes-cup-media

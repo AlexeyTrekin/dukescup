@@ -12,7 +12,8 @@ cover:
 
 **📅 Date:** February 7-8, 2026  
 **📍 Location:** Novi Sad, Serbia. Venue TBD  
-**🏆 Registration:** Open until 31.01.2026
+**🏆 Registration:** Open until 31.01.2026  
+**💰 Entry fee:** €40 / €20 — [Payment details](/dukescup/payment/)
 
 ## Apply Now
 
@@ -20,8 +21,15 @@ cover:
 
 *Join us for an exciting tournament celebrating the art of Historical European Martial Arts. Whether you're a seasoned competitor or new to HEMA, Duke's Cup offers an opportunity to test your skills in a friendly and competitive environment.*
 
+## Contact Us
+
+📧 **Email:** [dukescup@gmail.com](mailto:dukescup@gmail.com)  
+📘 **Facebook:** [Red Ravens Club](https://www.facebook.com/crvenigarvanovi/about)
+
 ## Team
 
-The event is organized by the “Red Ravens” club
+The event is organized by the [“Red Ravens”](https://www.facebook.com/crvenigarvanovi/about) club
+
 Head referee and secretary: Alexey Trekin
+
 Head coordinator: Nemanja Banovic
