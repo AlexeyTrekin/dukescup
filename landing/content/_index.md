@@ -13,7 +13,7 @@ cover:
 **📅 Date:** February 7-8, 2026  
 **📍 Location:** Novi Sad, Serbia. Venue TBD  
 **🏆 Registration:** Open until 31.01.2026  
-**💰 Entry fee:** €40 / €20 — [Payment details](/dukescup/payment/)
+**💰 Entry fee:** €40 / €20 — [Payment details]({{< relref "/payment" >}})
 
 ## Apply Now
 
