@@ -2,15 +2,15 @@
 
 :root {
   /* PaperMod theme colors - Light mode */
-  --theme: rgb(204, 210, 196);        /* Main background */
-  --entry: rgb(141, 166, 163);        /* Card/entry background */
+  --theme: #f2efe6;        /* Main background */
+  --entry: #d87b6a;        /* Card/entry background */
   --primary: rgb(20, 20, 20);         /* Primary text */
   --secondary: rgb(60, 60, 60);       /* Secondary text */
   --tertiary: rgb(200, 200, 200);     /* Borders, dividers */
   --content: rgb(20, 20, 20);         /* Content text */
-  --code-block-bg: rgb(204, 210, 196);   /* Code block background */
-  --code-bg: rgb(204, 210, 196);      /* List background - same as theme for consistency */
-  --border: rgb(90, 94, 91);          /* Border color */
+  --code-block-bg: #f2efe6;   /* Code block background */
+  --code-bg: #f2efe6;      /* List background - same as theme for consistency */
+  --border: #200e24;          /* Border color */
   
   --main-width: 720px;
   --nav-width: 720px;
@@ -18,14 +18,14 @@
 
 :root[data-theme="dark"] {
   /* PaperMod theme colors - Dark mode */
-  --theme: rgb(57, 68, 72);
-  --entry: rgb(83, 102, 109);
+  --theme: #200e24;
+  --entry: #7d2425;
   --primary: rgb(230, 230, 230);
   --secondary: rgb(160, 160, 160);
   --tertiary: rgb(18, 20, 20);
   --content: rgb(200, 200, 200);
-  --code-block-bg: rgb(83, 102, 109);
-  --code-bg: rgb(83, 102, 109);
+  --code-block-bg: #200e24;
+  --code-bg: #200e24;
   --border: rgb(45, 53, 56);
 }
 
@@ -43,7 +43,7 @@ body::before {
   left: 0;
   width: 300px;
   height: 100vh;
-  background-image: url('https://dukes-cup-media.s3.amazonaws.com/logo/bg_2026_left.jpg');
+  background-image: url('https://dukes-cup-media.s3.amazonaws.com/logo/bg_2026_left.png');
   background-size: auto 100%;
   background-repeat: no-repeat;
   background-position: right center;
@@ -58,7 +58,7 @@ body::after {
   right: 0;
   width: 300px;
   height: 100vh;
-  background-image: url('https://dukes-cup-media.s3.amazonaws.com/logo/bg_2026_right.jpg');
+  background-image: url('https://dukes-cup-media.s3.amazonaws.com/logo/bg_2026_right.png');
   background-size: auto 100%;
   background-repeat: no-repeat;
   background-position: left center;
