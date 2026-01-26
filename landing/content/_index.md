@@ -10,10 +10,13 @@ cover:
 
 ## Key Information
 
-**📅 Date:** February 7-8, 2026  
-**📍 Location:** Novi Sad, Serbia. Venue TBD  
+**📅 Date:** February 7, 2026  
+
+**📍 Location:**  SPENS, Novi Sad, Serbia. [See more]({{< relref "/venue" >}})
+
 **🏆 Registration:** Open until 31.01.2026  
-**💰 Entry fee:** €40 / €20 — [Payment details]({{< relref "/payment" >}})
+
+**💰 Entry fee:** €15 — [Payment details]({{< relref "/payment" >}})
 
 ## Apply Now
 

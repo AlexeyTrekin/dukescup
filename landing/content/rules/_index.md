@@ -32,3 +32,9 @@ Registration to the event is handled by HEMAGON platform at https://hemagon.com/
 **Date of registration closing:** 30.01.2026
 
 The registration is confirmed after the registration fee is paid.
+
+## Rules
+
+- [Gear requirements]({{< relref "gear-requirements.md" >}})
+- [Tournament rules]({{< relref "tournament-rules.md" >}})
+- [Flag signals]({{< relref "flag-signals.md" >}})

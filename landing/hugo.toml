@@ -63,7 +63,6 @@ enableEmoji = true
     <h4 style="margin: 0 0 8px 0; font-size: 1em;">🏛️ Our Sponsors</h4>
     <div style="display: flex; justify-content: center; align-items: center; gap: 15px; flex-wrap: wrap;">
       <a href="mailto:dukescup@gmail.com"><img src="https://dukes-cup-media.s3.amazonaws.com/sponsors/become-sponsor.png" alt="Become a Sponsor" style="height: 120px; max-width: 180px; object-fit: contain; background: white; padding: 3px; border-radius: 3px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"></a>
-      <a href="https://pbtfencing.hu"><img src="https://dukes-cup-media.s3.amazonaws.com/sponsors/pbt.jpg"  alt="PBT" style="height: 120px; max-width: 180px; object-fit: contain; background: white; padding: 3px; border-radius: 3px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"></a>
       <a href="https://histfenc.com"><img src="https://dukes-cup-media.s3.amazonaws.com/sponsors/spes.png"  alt="SPES" style="height: 120px; max-width: 180px; object-fit: contain; background: white; padding: 3px; border-radius: 3px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"></a>
     </div>
   </div>

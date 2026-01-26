@@ -11,7 +11,9 @@ weight = 10
 These rules cover:
 - tournament structure
 - fight rules
-- code of conduct and penalties
+- code of conduct and [penalties](#penalties)
+
+---
 
 <!--more-->
 
@@ -27,9 +29,13 @@ Each category consists of two phases: the qualification one and the finals. The 
 2. Fights lasts till one of fighters loses 5 (or 6) points, or till the actual time (90 seconds) is over;
 3. The participants who lost all their hit-points are withdrawn of the tournament even if it happened in the middle of a fight;
 4. Pairs for the first round are seeded randomly.
-5. Pairs for all the next rounds are set in such a way that in any pair fighters have a similar or close enough number of points. At the same time we will avoid situations when the same pair of fighters meet each other for the second time.
+5. Pairs for all the next rounds are set in such a way that in any pair fighters have a similar or close enough number of points.  
+
+*Note: as swiss system prioretizes matches between participants with close rating (HP) you can have repeated fights, especially if there are not very many fighters.*
+
 6. If the number of participants is odd when the tournament begins, then one random fighter gains technical win with the score 0:-6. In the next rounds the technical win will be given to the participant with the lowest score;
 7. The qualification phase lasts till there will be no more than 4 fighters. At that moment, 4 top fighters will proceed to the finals. If 3 or less fighters have positive points at the end of the round, places are assigned with respect to the negative points, among the participants of the last round. 1 and 2 places will fight in the final; 3 and 4 places will fight for the 3rd place. 
+If some of the fighters left have the same rating, they will have additional round of tie-breakers with the same rules, till 5 points for the fight.
 
 #### 1.1.2 The finals
 
@@ -37,15 +43,26 @@ The finals are two fights - for 1st and 3rd places. The fight lasts until one of
 
 ### 1.2 The rules of fights
 
-1. Any cuts/thrusts performed to the head, torso or upper limbs take 2 points from the opponent. The only exceptions are cuts performed with  sideswords (category Sword and buckler): they take 1 point from the opponent.
+1. Any cuts/thrusts performed to the head or torso take 2 points from the opponent. The only exceptions are cuts performed with sideswords (category Sword and buckler): they take 1 point from the opponent.
 2. Any cuts/thrusts performed to legs take 1 point from the opponent;
 3. Any qualified slices take 1 point from the opponent;
-4. Any cuts performed by the back or the flat of the blade take no points;
+4. Any cuts performed by the back of the sabre or the flat of any blade take no points;
 5. Doubles take points (according to the target areas) from both fighters;
-6. Thrusts to the torso and all effective attacks to the head have a stopping effect and after blows performed after them will have no result;
-7. Any other after blows take points from opponent as if they were just qualified attacks according to the target areas (i.e. the after blow performed to a hand wil take 2 points, and the after blow performed to knee will take only 1 point);
+6. Thrusts to the torso and all effective attacks to the head (including slices) have a stopping effect and after blows performed after them will have no result;
+7. Any other after blows take points from opponent as if they were just qualified attacks according to the target areas (i.e. the after blow performed to a head will take 2 points, and the after blow performed to knee will take only 1 point);
+8. Forbidden zones: back of the head, spine, back of the knees, feet.
 8. Weapon loss takes 1 point from the fighter;
 9. Falling takes 1 point from the fighter except situations when the falling is a part of technical action.
+10. Unintentional leaving the fighting area with both legs will take 1 point from the fighter.
+
+<img src="https://dukes-cup-media.s3.amazonaws.com/rules/thrust.png" alt="Target zones for thrust (all weapons)" style="max-width:480px;width:100%;height:auto;" />
+<div style="text-align:center;font-style:italic;">Target zones for thrust (all weapons)</div>
+
+<img src="https://dukes-cup-media.s3.amazonaws.com/rules/cut-side.png" alt="Target zones for cut with sidesword" style="max-width:480px;width:100%;height:auto;" />
+<div style="text-align:center;font-style:italic;">Target zones for cut with sidesword</div>
+
+<img src="https://dukes-cup-media.s3.amazonaws.com/rules/sabre-arming-cut.png" alt="Target zones for cut with sabre or arming sword" style="max-width:480px;width:100%;height:auto;" />
+<div style="text-align:center;font-style:italic;">Target zones for cut with sabre or arming sword</div>
 
 ## 2. Rights and duties of fighters and seconds
 
@@ -63,7 +80,7 @@ The fighter can have a second (cornerman), who can advise the fighter between bo
 
 ### 2.2 Allowed reasons for the challenges are:
 
-- mistake in the fencing phrase analysis
+- Mistake in the fencing phrase analysis
 - Mistake in qualification of the attacking or defensive actions
 - Mistake in recording of the results by secretary
 
@@ -80,7 +97,7 @@ Other reasons of the challenges are not valid and can't be called
 
 The referee crew of an area consists of:
 - the referee (head judge) of the area
-- corner (assisting) judges, the number may vary from 1 to 4 by decision of the head judge of the event 
+- corner (assisting) judge 
 - secretary of the area
 - video replay operator (optional)
 
@@ -101,10 +118,10 @@ The referee crew of an area consists of:
 | Stop! | signal to stop the fight. The fighter is interrupted at the signal |
 
 After the "stop" command, the referee describes the fencing phrase. After the description, the decision is announced:
-- Point red.
-- Point blue.
-- No score
-- "Final count <red: X, blue: Y>, winner <red/blue>" - signal for the finish of the match and the result.
+- Minus 1(2) points Red, Minus 1 (2) points Blue
+- No exchange (means that there were no qualified actions before stop command)
+- Unclear exchange, no decision (means that judges can't reliably call the result and thus discard this exchange)
+- "Final score <red: X, blue: Y>, winner <red/blue>" - signal for the finish of the match and the result.
 
 Only the referee gives vocal commands at the area, except for the safety reasons.
 
@@ -112,12 +129,7 @@ Only the referee gives vocal commands at the area, except for the safety reasons
 
 Corner judges follow the actions of both fighters, including successful attacks, tempo and the violations. They use the following signals to describe the bout:
 
-| Signal | Meaning |
-|--------|---------|
-| Arm straight up | qualified hit |
-| Flag covers the face | the judge hasn't seen the action of this fighter, no opinion |
-| Flag horizontal, at the waist level | the judge has seen the action, but does not qualify it as valid |
-| Flags are crossed and raised up | violation of the rules |
+For the side judge signals refer to [Flag signals]({{< relref "flag-signals.md" >}})
 
 ### 3.3 Secretary duties
 
@@ -129,7 +141,7 @@ The secretary of the area:
 
 ### 3.4 Regulations for the judges' council and decision
 
-The referee gathers all the judges and asks the questions about the fencing phrase description, the judges answer only "yes", "no" or "refrain/ no opinion".
+The referee gathers the side judge and (optional the fencers) and asks the questions about the fencing phrase description, the judges answer only "yes", "no" or "refrain/ no opinion".
 
 The question may consider:
 - tempo (lead) of one of the attacks
@@ -141,17 +153,14 @@ And should be asked by the form:
 2. Call the action ("cut/thrust/parry")
 3. Call the questionable matter ("Is it qualified?" , "Is the target valid?")
 
-According to the answers, the referee decides the results, with each side judge having 1 vote and the referee having 1.5 votes. The referee announces his decision after everyone else.
-
-If it is necessary, other particular questions may be addressed to a specific judge.
-
+According to the answers, the referee decides the results.
 
 ## 4. Penalties {#penalties}
 
 There are 4 levels of the penalties
 
 * **Warning** 🟨, (yellow card), is given for an accidental or mild misconduct, is recorded in the protocol by the secretary, and does not affect the results;  
-* **Penalty point** 🟥, (red card), is given for the second or subsequent case of mild misconduct, or a severe misconduct, and adds 1 point to the opponent's count;  
+* **Penalty point** 🟥, (red card), is given for the second or subsequent case of mild misconduct, or a severe misconduct, and takes 1 point from his score; Also, the actions of the carded fighter in the exchange are discarded.
 * **Technical loss** ⬛, (black card) is given for critical misconduct or multiple lesser violations, and leads to the loss with count 0-5 in the fight  
 * **Disqualification from the tournament and the event** may be issued in case of severe and malicious misconduct by the joint decision of the event organizers after the meeting.
 
@@ -162,9 +171,9 @@ Violations table:
 | Violation | First time | Second time | Subsequent cases of the same violation |
 | ----- | :---: | :---: | :---: |
 | **Dangerous actions during the fight**<br>• Excessive force<br>• Attacking of the forbidden areas<br>• Attacking before "FIGHT" command or after "STOP" command<br>• Exposing the forbidden areas to the opponent<br>• Exposing the back to the opponent<br>• Interruption of the fight without reason<br>• Fighting with inadequate or damaged gear<br>• Taking the gear elements off before STOP command<br>• Excessive force use and/or bad weapons control | 🟨 | 🟥 | 🟥 |
-| **Minor misconduct**<br>• No salute on arrival at the area<br>• No handshake after the end of the fight<br>• Leaving the area before the results were announced<br>• Leaving the ground with both legs during the fight<br>• Arriving at the area without referee's command | 🟨 | 🟥 | 🟥 |
+| **Minor misconduct**<br>• No salute on arrival at the area<br>• No handshake after the end of the fight<br>• Leaving the area before the results were announced<br> • Intentional leaving the ground during the fight<br> • Arriving at the area without referee's command | 🟨 | 🟥 | 🟥 |
 | **Showing disrespect to the judges or tournament crew**<br>• Violation of the fighters' duties<br>• Refusal to follow the instructions of the referee<br>• Arguing with the judges outside of regulated challenge form | 🟥 | 🟥 | ⬛ |
-| **Bad sportsmanship**<br>• Public swearing<br>• Refusal to begin/continue the assigned fight except for medical reasons<br>• Fixed match (intentional loss to promote other participant) | ⬛ | ⬛ * | ⬛ * |
+| **Bad sportsmanship**<br>• Public swearing<br>• Refusal to begin/continue the assigned fight except for medical reasons<br>• Fixed match (intentional loss to promote other participant)  | ⬛ | ⬛ * | ⬛ * |
 | **Violation of public behavior**<br>• Presence at the venue under alcoholic or drug influence<br>• Criminal offence | ⬛ * | ⬛ * | ⬛ * |
 
 * can lead to immediate disqualification from the event
