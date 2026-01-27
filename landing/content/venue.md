@@ -5,7 +5,10 @@ draft = false
 # Venue
 
 The tournament will take place in Novi Sad, Serbia.
-Venue to be announced.
+We will hold the tournament in our training area in SPENS.
+
+Entrance location: [Sutjeska 2, Službeni ulaz 3](https://maps.app.goo.gl/maQZz24Es7YAmLkN6)
+
 
 # Travel
 
