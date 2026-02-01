@@ -13,11 +13,14 @@ draft = false
 07.02.2026: Tournament starts
 
 # Timetable of the event
-## To be anounced
 
-### Day 1: February 7, 2026
-...
-
-### Day 2: February 8, 2026
-...
-
+| Time   | Event                                      |
+|--------|--------------------------------------------|
+| 9:00   | Venue opening, Sabre registration start    |
+| 10:00  | Opening ceremony, briefing                 |
+| 10:15  | Sabre category starts                      |
+| 13:00  | Sabre finals and awarding ceremony         |
+| 13:30  | Lunch break, Sword&Buckler registration start |
+| 14:30  | Sword&Buckler fights start                 |
+| 16:00  | Sword&Buckler finals and awarding ceremony |
+| 17:00  | Event closing                              |

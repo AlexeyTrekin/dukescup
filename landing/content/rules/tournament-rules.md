@@ -178,7 +178,7 @@ Violations table:
 | **Proticol violation**<br>• No salute on arrival at the area<br>• No handshake after the end of the fight<br>• Leaving the area before the results were announced<br> • Intentional leaving the ground during the fight<br> • Arriving at the area without referee's command <br>• Attacking before "FIGHT" command or after "STOP" command  <br> • Not being present at the fighting area a minute after being called <br>• Arguing with the judges outside of regulated challenge form  | 🟨 | 🟨 | 🟥 |
 | **Self-endangerment**<br>• Exposing the forbidden areas to the opponent<br>• Exposing the back to the opponent<br> •Fighting with inadequate or damaged gear<br>• Taking the gear elements off before STOP command<br> | 🟨 | 🟨 | 🟥 |
 | **Endangering opponent**<br>• Attacking of the forbidden areas<br>• Excessive force use and/or bad weapons control <br>• Striking with anything but the weapon blade <br>• Wrestling except for specifically allowed <br>• Throwing weapon <br>• Other actions threatening safety, on referee's decision. | 🟨 | 🟥 | 🟥 |
-| **Severe misconduct**<br>• Violation of the fighters' duties<br>• Refusal to follow the instructions of the referee <br>• Public swearing| 🟥 | 🟥 | ⬛ |
+| **Severe misconduct**<br>• Refusal to follow the instructions of the referee <br>• Public swearing| 🟥 | 🟥 | ⬛ |
 | **Bad sportsmanship**<br>• Refusal to begin/continue the assigned fight except for medical reasons<br>• Fixed match (intentional loss to promote other participant)  | ⬛ | ⬛ * | ⬛ * |
 | **Violation of public behavior**<br>• Presence at the venue under alcoholic or drug influence<br>• Criminal offence | ⬛ * | ⬛ * | ⬛ * |
 
@@ -188,7 +188,6 @@ In case of intentional or severe violation, it can be penalized more severely th
 
 Any other violations which are not explicitly listed here can be addressed and penalized by the referee of the area with respect to the spirit of the rules and good sportsmanship.
 
- 
 
 ## Injuries and withdrawal from the tournament {#injuries-and-withdrawal-from-the-tournament}
 
