@@ -1,9 +1,10 @@
 
 ## Application Status
-**Applications for Dukes Cup 2026 are now OPEN!**
+**Applications for Dukes Cup 2026 closed on January 31, 2026**
 
-**Registration Deadline**: January 31, 2026  
-**Competition Date**: February 7-8, 2026
+If you want to register or change your application, contact us at dukescup@gmail.com
+
+**Competition Date**: February 7, 2026
 
 ## How to Apply
 1. **[Register at Hemagon](https://hemagon.com/registration)**

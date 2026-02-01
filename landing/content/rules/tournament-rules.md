@@ -50,9 +50,14 @@ The finals are two fights - for 1st and 3rd places. The fight lasts until one of
 5. Doubles take points (according to the target areas) from both fighters;
 6. Thrusts to the torso and all effective attacks to the head (including slices) have a stopping effect and after blows performed after them will have no result;
 7. Any other after blows take points from opponent as if they were just qualified attacks according to the target areas (i.e. the after blow performed to a head will take 2 points, and the after blow performed to knee will take only 1 point);
-8. Forbidden zones: back of the head, spine, back of the knees, feet.
-8. Weapon loss takes 1 point from the fighter;
+8. Allowed special tecnhiques:
+  - Grabbing opponent's arms of body, without arm locks or throws, does not grant points. Wrestling is stopped after 3 to 5 seconds, or if dangerous situation occurs;
+  - Demonstration of pommel strikes to the mesh of the mask, takes 1 point from opponent, stopping action;
+8. Forbidden zones: back of the head, spine, back of the knees, feet;
+8. Explicitly forbidden actions: strikes with the buckler, sword guard, punches and kicks, joint locks, throws;
+8. Weapon loss takes 1 point from the fighter, except if the weapon was lost after thrust for the safety reasons;
 9. Falling takes 1 point from the fighter except situations when the falling is a part of technical action.
+10. If two actions happen at the same time (i.e. losing the weapon and getting strike to the head) the HIGHER score is applied;
 10. Unintentional leaving the fighting area with both legs will take 1 point from the fighter.
 
 <img src="https://dukes-cup-media.s3.amazonaws.com/rules/thrust.png" alt="Target zones for thrust (all weapons)" style="max-width:480px;width:100%;height:auto;" />
@@ -170,10 +175,11 @@ Violations table:
 
 | Violation | First time | Second time | Subsequent cases of the same violation |
 | ----- | :---: | :---: | :---: |
-| **Dangerous actions during the fight**<br>• Excessive force<br>• Attacking of the forbidden areas<br>• Attacking before "FIGHT" command or after "STOP" command<br>• Exposing the forbidden areas to the opponent<br>• Exposing the back to the opponent<br>• Interruption of the fight without reason<br>• Fighting with inadequate or damaged gear<br>• Taking the gear elements off before STOP command<br>• Excessive force use and/or bad weapons control | 🟨 | 🟥 | 🟥 |
-| **Minor misconduct**<br>• No salute on arrival at the area<br>• No handshake after the end of the fight<br>• Leaving the area before the results were announced<br> • Intentional leaving the ground during the fight<br> • Arriving at the area without referee's command | 🟨 | 🟥 | 🟥 |
-| **Showing disrespect to the judges or tournament crew**<br>• Violation of the fighters' duties<br>• Refusal to follow the instructions of the referee<br>• Arguing with the judges outside of regulated challenge form | 🟥 | 🟥 | ⬛ |
-| **Bad sportsmanship**<br>• Public swearing<br>• Refusal to begin/continue the assigned fight except for medical reasons<br>• Fixed match (intentional loss to promote other participant)  | ⬛ | ⬛ * | ⬛ * |
+| **Proticol violation**<br>• No salute on arrival at the area<br>• No handshake after the end of the fight<br>• Leaving the area before the results were announced<br> • Intentional leaving the ground during the fight<br> • Arriving at the area without referee's command <br>• Attacking before "FIGHT" command or after "STOP" command  <br> • Not being present at the fighting area a minute after being called <br>• Arguing with the judges outside of regulated challenge form  | 🟨 | 🟨 | 🟥 |
+| **Self-endangerment**<br>• Exposing the forbidden areas to the opponent<br>• Exposing the back to the opponent<br> •Fighting with inadequate or damaged gear<br>• Taking the gear elements off before STOP command<br> | 🟨 | 🟨 | 🟥 |
+| **Endangering opponent**<br>• Attacking of the forbidden areas<br>• Excessive force use and/or bad weapons control <br>• Striking with anything but the weapon blade <br>• Wrestling except for specifically allowed <br>• Throwing weapon <br>• Other actions threatening safety, on referee's decision. | 🟨 | 🟥 | 🟥 |
+| **Severe misconduct**<br>• Refusal to follow the instructions of the referee <br>• Public swearing| 🟥 | 🟥 | ⬛ |
+| **Bad sportsmanship**<br>• Refusal to begin/continue the assigned fight except for medical reasons<br>• Fixed match (intentional loss to promote other participant)  | ⬛ | ⬛ * | ⬛ * |
 | **Violation of public behavior**<br>• Presence at the venue under alcoholic or drug influence<br>• Criminal offence | ⬛ * | ⬛ * | ⬛ * |
 
 * can lead to immediate disqualification from the event
@@ -182,7 +188,6 @@ In case of intentional or severe violation, it can be penalized more severely th
 
 Any other violations which are not explicitly listed here can be addressed and penalized by the referee of the area with respect to the spirit of the rules and good sportsmanship.
 
- 
 
 ## Injuries and withdrawal from the tournament {#injuries-and-withdrawal-from-the-tournament}
 

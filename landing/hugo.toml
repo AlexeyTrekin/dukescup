@@ -62,9 +62,10 @@ enableEmoji = true
   <div style="text-align: center; margin: 5px 0; padding: 8px 0;">
     <h4 style="margin: 0 0 8px 0; font-size: 1em;">🏛️ Our Sponsors</h4>
     <div style="display: flex; justify-content: center; align-items: center; gap: 15px; flex-wrap: wrap;">
-      <a href="mailto:dukescup@gmail.com"><img src="https://dukes-cup-media.s3.amazonaws.com/sponsors/become-sponsor.png" alt="Become a Sponsor" style="height: 120px; max-width: 180px; object-fit: contain; background: white; padding: 3px; border-radius: 3px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"></a>
-      <a href="https://histfenc.com"><img src="https://dukes-cup-media.s3.amazonaws.com/sponsors/spes.png"  alt="SPES" style="height: 120px; max-width: 180px; object-fit: contain; background: white; padding: 3px; border-radius: 3px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"></a>
-    </div>
+     <a href="https://www.instagram.com/medovuha.rs?igsh=MTQweXk1eWFqODd4eQ==" target="_blank" rel="noopener"><img src="https://dukes-cup-media.s3.amazonaws.com/sponsors/2026-02-01 15.36.32.jpg" alt="Breaking Mead" style="height: 120px; max-width: 180px; object-fit: contain; background: white; padding: 3px; border-radius: 3px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"></a>
+     <a href="https://histfenc.com" target="_blank" rel="noopener"><img src="https://dukes-cup-media.s3.amazonaws.com/sponsors/spes.png"  alt="SPES" style="height: 120px; max-width: 180px; object-fit: contain; background: white; padding: 3px; border-radius: 3px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"></a>
+     <a href="https://sparringglove.com" target="_blank" rel="noopener"><img src="https://dukes-cup-media.s3.amazonaws.com/sponsors/logo jpg. R.jpg"  alt="Sparringgloves" style="height: 120px; max-width: 180px; object-fit: contain; background: white; padding: 3px; border-radius: 3px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"></a>
+     <a href="https://supfen.com" target="_blank" rel="noopener"><img src="https://dukes-cup-media.s3.amazonaws.com/sponsors/Superior Fencing Logo.png"  alt="Superior Fencing" style="height: 120px; max-width: 180px; object-fit: contain; background: white; padding: 3px; border-radius: 3px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"></a>
   </div>
   '''
 

@@ -38,3 +38,4 @@ The registration is confirmed after the registration fee is paid.
 - [Gear requirements]({{< relref "gear-requirements.md" >}})
 - [Tournament rules]({{< relref "tournament-rules.md" >}})
 - [Flag signals]({{< relref "flag-signals.md" >}})
+- [Referee guidelines]({{< relref "referee-guidelines.md" >}})
