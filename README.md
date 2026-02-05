@@ -55,6 +55,44 @@ cd landing
 hugo --gc --minify
 ```
 
+### Print-Ready Rules Documents
+
+Generate DOCX files for printing the tournament rules. Requires [Pandoc](https://pandoc.org/installing.html).
+
+```bash
+# Create output directory
+mkdir -p print-ready/images
+
+# Download images
+cd print-ready/images
+curl -O https://dukes-cup-media.s3.amazonaws.com/rules/thrust.png \
+     -O https://dukes-cup-media.s3.amazonaws.com/rules/cut-side.png \
+     -O https://dukes-cup-media.s3.amazonaws.com/rules/sabre-arming-cut.png
+cd ../..
+
+# Generate DOCX files
+cd landing/content/rules
+
+# Competition rules (main page)
+tail -n +7 _index.md | pandoc -f markdown -o ../../../print-ready/competition-rules.docx --metadata title="Competition Rules"
+
+# Gear requirements
+tail -n +8 gear-requirements.md | pandoc -f markdown -o ../../../print-ready/gear-requirements.docx --metadata title="Gear Requirements"
+
+# Tournament rules (with images)
+tail -n +8 tournament-rules.md \
+  | sed 's|https://dukes-cup-media.s3.amazonaws.com/rules/|../../../print-ready/images/|g' \
+  | sed -E 's|<img src="([^"]+)" alt="([^"]*)"[^>]*/>|![\2](\1)|g' \
+  | sed '/<div style/d' \
+  | pandoc -f markdown -o ../../../print-ready/tournament-rules.docx --metadata title="Tournament Rules"
+
+# Referee guidelines
+tail -n +8 referee-guidelines.md | pandoc -f markdown -o ../../../print-ready/referee-guidelines.docx --metadata title="Referee Guidelines"
+
+```
+
+The `print-ready/` folder is gitignored.
+
 ## 📁 Project Structure
 - `landing/` - Hugo site source files
 - `media/` - Local media files (gitignored, synced from S3)

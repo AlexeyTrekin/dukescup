@@ -5,6 +5,9 @@ media/
 landing/public/
 landing/resources/_gen/
 
+# Print-ready documents
+print-ready/
+
 # OS generated files
 .DS_Store
 .DS_Store?
