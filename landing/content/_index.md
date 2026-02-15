@@ -45,18 +45,3 @@ Head referee and secretary: Alexey Trekin
 
 Head coordinator: Nemanja Banovic
 -->
-<!--
-OLD CONTENT - hidden, will clean up later
- — [Payment details]({{< relref "/payment" >}})
-
-## Apply Now
-
-<a href="https://hemagon.com/tournament/dukes-cup-2026" style="display: inline-block; background-color: #1e40af; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; margin: 10px 0;">🗡️ Apply for Duke's Cup 2026</a>
-
-*Join us for an exciting tournament celebrating the art of Historical European Martial Arts. Whether you're a seasoned competitor or new to HEMA, Duke's Cup offers an opportunity to test your skills in a friendly and competitive environment.*
-
-## Contact Us
-
-📧 **Email:** [dukescup@gmail.com](mailto:dukescup@gmail.com)  
-📘 **Facebook:** [Red Ravens Club](https://www.facebook.com/crvenigarvanovi/about)
--->
