@@ -1,5 +1,5 @@
 +++
-title = "Gear requirements"
+title = "Gear requirements (January 2026)"
 date = "2025-07-27"
 draft = false
 weight = 20
@@ -25,6 +25,8 @@ The tournament is dedicated to late-19 century fencing, and the weapons should c
 
 - Length up to 110 cm for sideswords; up to 100 cm for arming swords.
 - Weight 900-1200 grams
+- Rolled, thick or spatulated tip
+- Blade flex 4-9 kg
 
 ## Mandatory protective equipment
 

@@ -1,5 +1,5 @@
 +++
-title = "Competition Rules"
+title = "Competition Rules (January 2026)"
 date = "2024-01-01"
 draft = false
 +++
@@ -23,15 +23,6 @@ The participation fee is 40 euro for the primary category and 20 euro for each a
 - Sword&buckler: Women.
 
 Women's categories will be conducted if the number of participants is 5 or more, otherwise the applications will be moved to Open category, with possibility to withdraw the application.
-
-## Registration and payment
-
-Registration to the event is handled by HEMAGON platform at https://hemagon.com/tournament/dukes-cup-2026
-
-**Date of registration opening:** 25.08.2025  
-**Date of registration closing:** 30.01.2026
-
-The registration is confirmed after the registration fee is paid.
 
 ## Rules
 

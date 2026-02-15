@@ -1,3 +1,6 @@
+---
+draft: true
+---
 
 ## Application Status
 **Applications for Dukes Cup 2026 closed on January 31, 2026**

@@ -7,27 +7,29 @@ description = "Explore the history of Duke's Cup tournaments from our inaugural 
 
 ## Event History
 
-### Duke's Cup 2025 ✅ Recently Completed
+### Duke's Winter Cup 2026 ✅ Recently Completed
+
+Our latest tournament held on February 7, 2026 at SPENS, Novi Sad, Serbia, featuring Sabre and Sword & Buckler.
+
+{{< figure src="https://dukes-cup-media.s3.amazonaws.com/dukes-cup-2026/DK65.jpg" alt="Duke's Cup 2026" caption="Duke's Cup 2026" >}}
+
+**[Read Full 2026 Event Summary →]({{< relref "events/dwc_2026" >}})**
+
+---
+
+### Duke's Winter Cup 2025
 
 {{< figure src="https://dukes-cup-media.s3.amazonaws.com/photos_2025/2025_1.jpg" alt="Duke's Cup 2025" caption="Duke's Cup 2025 - Our biggest tournament yet!" >}}
-
-**Key Statistics:**
 
 **[Read Full 2025 Event Summary →]({{< relref "events/dwc_2025" >}})**
 
 ---
     
-### 2024 - Duke's Cup 2024
+### Duke's Cup 2024
 
 Our first HEMA tournament hosted at the Red Raven's historical festival
 
-**Highlights:**
-
 **[View 2024 Highlights →]({{< relref "events/dc_2024" >}})**
-
----
-
-**[Apply for Duke's Cup 2026 →]({{< relref "applications" >}})**
 
 ---
 

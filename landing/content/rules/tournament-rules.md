@@ -1,5 +1,5 @@
 +++
-title = "Tournament rules"
+title = "Tournament rules (January 2026)"
 date = "2025-07-27"
 draft = false
 weight = 10

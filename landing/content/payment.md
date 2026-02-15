@@ -1,6 +1,7 @@
 ---
 title: "Payment Information"
 weight: 50
+draft: true
 ---
 
 ## Entry Fee

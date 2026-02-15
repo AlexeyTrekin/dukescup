@@ -1,5 +1,5 @@
 +++
-title = "Refere guidelines"
+title = "Refere guidelines (January 2026)"
 date = "2026-02-01"
 draft = false
 weight = 40

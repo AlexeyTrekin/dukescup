@@ -1,6 +1,6 @@
 baseURL = 'https://alexeytrekin.github.io/dukescup/'
 languageCode = 'en-us'
-title = "Duke's Cup 2026"
+title = "Duke's Cup"
 theme = "PaperMod"
 
 # Set homepage to show only _index.md content
@@ -38,7 +38,7 @@ enableEmoji = true
   # Enable profile mode for homepage
   [params.profileMode]
     enabled = false
-    title = "Duke's Cup 2026"
+    title = "Duke's Cup"
     subtitle = "Historical European Martial Arts Tournament in Serbia"
     imageUrl = "https://dukes-cup-media.s3.amazonaws.com/logo/logo_2026_main.jpg"
     imageWidth = 100
@@ -53,7 +53,7 @@ enableEmoji = true
     favicon = ""
 
   [params.label]
-    text = "Duke's Cup 2026"
+    text = "Duke's Cup"
     icon = ""
     iconHeight = 35
 
@@ -75,34 +75,35 @@ enableEmoji = true
     name = "Home"
     url = "/"
     weight = 10
-  [[menu.main]]
-    identifier = "applications"
-    name = "Applications"
-    url = "/applications/"
-    weight = 20
+  # Hidden for now - will re-enable when new event is announced
+  # [[menu.main]]
+  #   identifier = "applications"
+  #   name = "Applications"
+  #   url = "/applications/"
+  #   weight = 20
   [[menu.main]]
     identifier = "rules"
     name = "Rules"
     url = "/rules/"
     weight = 30
-  [[menu.main]]
-    identifier = "timetable"
-    name = "Timetable"
-    url = "/timetable/"
-    weight = 40
-  [[menu.main]]
-    identifier = "venue"
-    name = "Venue & travel"
-    url = "/venue/"
-    weight = 50
-  [[menu.main]]
-    identifier = "payment"
-    name = "Payment"
-    url = "/payment/"
-    weight = 60
+  # [[menu.main]]
+  #   identifier = "timetable"
+  #   name = "Timetable"
+  #   url = "/timetable/"
+  #   weight = 40
+  # [[menu.main]]
+  #   identifier = "venue"
+  #   name = "Venue & travel"
+  #   url = "/venue/"
+  #   weight = 50
+  # [[menu.main]]
+  #   identifier = "payment"
+  #   name = "Payment"
+  #   url = "/payment/"
+  #   weight = 60
   [[menu.main]]
     identifier = "events"
-    name = "Previous events"
+    name = "Events"
     url = "/events/"
     weight = 70
 
