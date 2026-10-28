@@ -7,6 +7,14 @@ description = "Explore the history of Duke's Cup tournaments from our inaugural 
 
 ## Event History
 
+### Duke's Cup 2027 🔜 Upcoming
+
+Our next tournament, featuring Longsword, Sabre and an Experimental category. Date and venue TBA.
+
+**[See 2027 Event Details →]({{< relref "/" >}})**
+
+---
+
 ### Duke's Winter Cup 2026 ✅ Recently Completed
 
 Our latest tournament held on February 7, 2026 at SPENS, Novi Sad, Serbia, featuring Sabre and Sword & Buckler.

@@ -3,6 +3,7 @@ title = "Gear requirements (January 2026)"
 date = "2025-07-27"
 draft = false
 weight = 20
+aliases = ["/rules/gear-requirements/"]
 +++
 
 ## Sabre

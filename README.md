@@ -70,24 +70,27 @@ curl -O https://dukes-cup-media.s3.amazonaws.com/rules/thrust.png \
      -O https://dukes-cup-media.s3.amazonaws.com/rules/sabre-arming-cut.png
 cd ../..
 
-# Generate DOCX files
-cd landing/content/rules
+# Generate DOCX files (current rules live in rules/, previous years in rules/<year>/)
+RULES=landing/content/rules/2026
+OUT=print-ready
+# strip the +++ front matter
+strip_fm() { awk 'n>=2; /^\+\+\+$/{n++}' "$1"; }
 
 # Competition rules (main page)
-tail -n +7 _index.md | pandoc -f markdown -o ../../../print-ready/competition-rules.docx --metadata title="Competition Rules"
+strip_fm $RULES/_index.md | pandoc -f markdown -o $OUT/competition-rules.docx --metadata title="Competition Rules"
 
 # Gear requirements
-tail -n +8 gear-requirements.md | pandoc -f markdown -o ../../../print-ready/gear-requirements.docx --metadata title="Gear Requirements"
+strip_fm $RULES/gear-requirements.md | pandoc -f markdown -o $OUT/gear-requirements.docx --metadata title="Gear Requirements"
 
 # Tournament rules (with images)
-tail -n +8 tournament-rules.md \
-  | sed 's|https://dukes-cup-media.s3.amazonaws.com/rules/|../../../print-ready/images/|g' \
+strip_fm $RULES/tournament-rules.md \
+  | sed 's|https://dukes-cup-media.s3.amazonaws.com/rules/|images/|g' \
   | sed -E 's|<img src="([^"]+)" alt="([^"]*)"[^>]*/>|![\2](\1)|g' \
   | sed '/<div style/d' \
-  | pandoc -f markdown -o ../../../print-ready/tournament-rules.docx --metadata title="Tournament Rules"
+  | pandoc -f markdown --resource-path=$OUT -o $OUT/tournament-rules.docx --metadata title="Tournament Rules"
 
 # Referee guidelines
-tail -n +8 referee-guidelines.md | pandoc -f markdown -o ../../../print-ready/referee-guidelines.docx --metadata title="Referee Guidelines"
+strip_fm $RULES/referee-guidelines.md | pandoc -f markdown -o $OUT/referee-guidelines.docx --metadata title="Referee Guidelines"
 
 ```
 

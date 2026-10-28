@@ -1,21 +1,46 @@
 ---
-title: "Duke's Cup"
+title: "Duke's Cup 2027"
 description: "Historical European Martial Arts Tournament"
 cover:
     image: "https://dukes-cup-media.s3.amazonaws.com/photos_2025/2025_2.jpg"
-    alt: "Duke's Cup Tournament"
+    alt: "Duke's Cup 2027 Tournament"
     caption: "Historical European Martial Arts Tournament"
     relative: false
 ---
 
-## Duke's Winter Cup 2026 — Completed!
+## Duke's Cup 2027 — Announced!
 
-Thank you to everyone who participated in Duke's Winter Cup 2026 on February 7, 2026 at SPENS, Novi Sad, Serbia!
+We are happy to announce the next Duke's Cup tournament! The details are being prepared, follow this page for updates.
 
-**[View event page →]({{< relref "events/dwc_2026" >}})**
+## Key Information
 
+**📅 Date:** TBA
 
-**[View event result summary →](https://hemagon.com/tournament/dukes-cup-2026/summary)**
+**📍 Location:** TBA
+
+**🏆 Registration:** via Google Forms, opens soon — [Applications]({{< relref "/applications" >}})
+
+**💰 Entry fee:** TBA
+
+## Categories
+
+| Weapon | Divisions |
+|--------|-----------|
+| ⚔️ Longsword | Open, Women's |
+| 🗡️ Sabre | Open, Women's |
+| ❓ Experimental | 🤫 It's a surprise — stay tuned! |
+
+## Rules
+
+The rules for 2027 will be announced later.
+
+- [Competition rules]({{< relref "/rules" >}}) — *TBA*
+- Gear requirements — *TBA*
+- Tournament rules — *TBA*
+- Flag signals — *TBA*
+- Referee guidelines — *TBA*
+
+The rules of the previous tournament are available on the [Duke's Winter Cup 2026 page]({{< relref "events/dwc_2026#rules" >}}).
 
 ---
 
@@ -29,9 +54,7 @@ Thank you to everyone who participated in Duke's Winter Cup 2026 on February 7, 
 
 ---
 
-## Stay Connected
-
-Follow us for announcements about the next Duke's Cup event!
+## Contact Us
 
 📧 **Email:** [dukescup@gmail.com](mailto:dukescup@gmail.com)  
 📘 **Facebook:** [Red Ravens Club](https://www.facebook.com/crvenigarvanovi/about)
