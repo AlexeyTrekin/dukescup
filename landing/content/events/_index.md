@@ -9,7 +9,7 @@ description = "Explore the history of Duke's Cup tournaments from our inaugural 
 
 ### Duke's Cup 2027 🔜 Upcoming
 
-Our next tournament, featuring Longsword, Sabre and an Experimental category. Date and venue TBA.
+Our next tournament, on February 20–21, 2027 in Novi Sad, Serbia, featuring Longsword, Sabre and an Experimental category. Venue TBA.
 
 **[See 2027 Event Details →]({{< relref "/" >}})**
 

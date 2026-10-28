@@ -14,9 +14,9 @@ We are happy to announce the next Duke's Cup tournament! The details are being p
 
 ## Key Information
 
-**📅 Date:** TBA
+**📅 Date:** February 20–21, 2027
 
-**📍 Location:** TBA
+**📍 Location:** Novi Sad, Serbia (venue TBA)
 
 **🏆 Registration:** via Google Forms, opens soon — [Applications]({{< relref "/applications" >}})
 

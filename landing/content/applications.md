@@ -7,7 +7,7 @@ title: "Applications"
 
 Registration will be done via Google Forms. The form link will be published on this page when applications open.
 
-**Competition Date**: TBA
+**Competition Date**: February 20–21, 2027, Novi Sad, Serbia (venue TBA)
 
 ## Categories
 
