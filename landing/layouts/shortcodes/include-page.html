@@ -1,0 +1,7 @@
+{{- /* Renders the content of another page, e.g. {{< include-page "events/dc_2027" >}} on the home page */ -}}
+{{- $path := .Get 0 -}}
+{{- with site.GetPage $path -}}
+  {{- .Content -}}
+{{- else -}}
+  {{- errorf "include-page: page %q not found (%s)" $path .Position -}}
+{{- end -}}

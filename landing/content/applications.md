@@ -2,22 +2,24 @@
 title: "Applications"
 ---
 
-## Application Status
-**Applications for Duke's Cup 2027 are not open yet.**
+## When can I apply?
+**Applications open on November 8, 2026.**
 
-Registration will be done via Google Forms. The form link will be published on this page when applications open.
+This year we're taking applications through Google Forms. The link to the form will appear right here when applications open.
 
-**Competition Date**: February 20–21, 2027, Novi Sad, Serbia (venue TBA)
+**📅 Tournament:** February 20–21, 2027
+
+**📍 Location:** Novi Sad, Serbia (venue TBA)
 
 ## Categories
 
 - Longsword: Open, Women's
 - Sabre: Open, Women's
-- Experimental: 🤫 it's a surprise — stay tuned!
+- Experimental: 🤫 a surprise for now. Stay tuned!
 
-See the [competition rules]({{< relref "/rules" >}}) (TBA).
+We're still writing the [competition rules]({{< relref "/rules" >}}). Please give them a read once they're out.
 
 ## Questions?
-Contact us at **dukescup@gmail.com** or see our [facebook page](https://www.facebook.com/share/1BguCP4gDk/).
+Write to us at **dukescup@gmail.com** or find us on [Facebook](https://www.facebook.com/share/1BguCP4gDk/). We're happy to help.
 
 [← Back to Home]({{< relref "/" >}})
