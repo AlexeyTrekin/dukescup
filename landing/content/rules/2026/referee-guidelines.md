@@ -3,6 +3,7 @@ title = "Refere guidelines (January 2026)"
 date = "2026-02-01"
 draft = false
 weight = 40
+aliases = ["/rules/referee-guidelines/"]
 +++
 
 ## Referee guidelines

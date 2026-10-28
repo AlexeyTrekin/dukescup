@@ -3,6 +3,7 @@ title = "Flag signals (January 2026)"
 date = "2026-01-25"
 draft = false
 weight = 30
+aliases = ["/rules/flag-signals/"]
 +++
 
 # Flag signals

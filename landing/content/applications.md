@@ -1,24 +1,25 @@
 ---
-draft: true
+title: "Applications"
 ---
 
-## Application Status
-**Applications for Dukes Cup 2026 closed on January 31, 2026**
+## When can I apply?
+**Applications open on November 8, 2026.**
 
-If you want to register or change your application, contact us at dukescup@gmail.com
+This year we're taking applications through Google Forms. The link to the form will appear right here when applications open.
 
-**Competition Date**: February 7, 2026
+**📅 Tournament:** February 20–21, 2027
 
-## How to Apply
-1. **[Register at Hemagon](https://hemagon.com/registration)**
-2. <a href="https://hemagon.com/tournament/dukes-cup-2026" style="display: inline-block; background-color: #1e40af; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; margin: 10px 0;">🗡️ Apply for Duke's Cup 2026</a>
+**📍 Location:** Novi Sad, Serbia (venue TBA)
 
+## Categories
 
-## Current Statistics
+- Longsword: Open, Women's
+- Sabre: Open, Women's
+- Experimental: 🤫 a surprise for now. Stay tuned!
 
-[See current list on Hemagon](https://hemagon.com/tournament/dukes-cup-2026/applications/saber-open)
+We're still writing the [competition rules]({{< relref "/rules" >}}). Please give them a read once they're out.
 
 ## Questions?
-Contact us at **dukescup@gmail.com** or see our [facebook page](https://www.facebook.com/share/1BguCP4gDk/).
+Write to us at **dukescup@gmail.com** or find us on [Facebook](https://www.facebook.com/share/1BguCP4gDk/). We're happy to help.
 
-[← Back to Home](/dukescup/)
+[← Back to Home]({{< relref "/" >}})
