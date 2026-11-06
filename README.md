@@ -57,21 +57,14 @@ hugo --gc --minify
 
 ### Print-Ready Rules Documents
 
-Generate DOCX files for printing the tournament rules. Requires [Pandoc](https://pandoc.org/installing.html).
+Generate DOCX files for printing the tournament rules. Requires [Pandoc](https://pandoc.org/installing.html) and `rsvg-convert` (`brew install librsvg`) for the SVG target-zone images.
 
 ```bash
 # Create output directory
-mkdir -p print-ready/images
-
-# Download images
-cd print-ready/images
-curl -O https://dukes-cup-media.s3.amazonaws.com/rules/thrust.png \
-     -O https://dukes-cup-media.s3.amazonaws.com/rules/cut-side.png \
-     -O https://dukes-cup-media.s3.amazonaws.com/rules/sabre-arming-cut.png
-cd ../..
+mkdir -p print-ready
 
 # Generate DOCX files (current rules live in rules/, previous years in rules/<year>/)
-RULES=landing/content/rules/2026
+RULES=landing/content/rules
 OUT=print-ready
 # strip the +++ front matter
 strip_fm() { awk 'n>=2; /^\+\+\+$/{n++}' "$1"; }
@@ -84,13 +77,13 @@ strip_fm $RULES/gear-requirements.md | pandoc -f markdown -o $OUT/gear-requireme
 
 # Tournament rules (with images)
 strip_fm $RULES/tournament-rules.md \
-  | sed 's|https://dukes-cup-media.s3.amazonaws.com/rules/|images/|g' \
+  | sed 's|\.\./\.\./images/rules/|landing/static/images/rules/|g' \
   | sed -E 's|<img src="([^"]+)" alt="([^"]*)"[^>]*/>|![\2](\1)|g' \
   | sed '/<div style/d' \
-  | pandoc -f markdown --resource-path=$OUT -o $OUT/tournament-rules.docx --metadata title="Tournament Rules"
+  | pandoc -f markdown -o $OUT/tournament-rules.docx --metadata title="Tournament Rules"
 
-# Referee guidelines
-strip_fm $RULES/referee-guidelines.md | pandoc -f markdown -o $OUT/referee-guidelines.docx --metadata title="Referee Guidelines"
+# Judges' guidelines
+strip_fm $RULES/judges-guidelines.md | pandoc -f markdown -o $OUT/judges-guidelines.docx --metadata title="Judges' Guidelines"
 
 ```
 
