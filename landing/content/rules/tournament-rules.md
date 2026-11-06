@@ -12,7 +12,7 @@ These rules cover:
 - fight rules
 - code of conduct and [penalties](#penalties)
 
-The experimental Longsword Fechtschule category has its own rules.
+The experimental Longsword Fechtschule category has [its own rules]({{< relref "experimental-longsword-fechtschule.md" >}}).
 
 ---
 
@@ -102,7 +102,7 @@ Sabre is judged by the priority (right of way) rules. The priority is assigned p
 1. Any cuts performed by the back of the sabre or the flat of any blade give no points;
 2. Any qualified slices give 1 point;
 3. Allowed special techniques:
-   - Grabbing opponent's arms or body, without arm locks or throws, does not grant points. Wrestling is stopped after 3 to 5 seconds, or if dangerous situation occurs;
+   - Grabbing the opponent's arms, body or sword hilt, or the strong part of their blade if it's static, without arm locks or throws, does not grant points. Wrestling is stopped after 3 to 5 seconds, or if dangerous situation occurs;
    - Demonstration of pommel strikes to the mesh of the mask gives 1 point, stopping action;
 4. Forbidden zones: back of the head, spine, groin, back of the knees, feet;
 5. Explicitly forbidden actions: strikes with the sword guard, punches and kicks, joint locks, throws;
