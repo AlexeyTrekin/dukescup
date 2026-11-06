@@ -3,9 +3,7 @@ title: "Applications"
 ---
 
 ## When can I apply?
-**Applications open on November 8, 2026.**
-
-This year we're taking applications through Google Forms.
+**Applications are open.**
 
 <div class="register-cta">
   <a class="register-button" href="https://docs.google.com/forms/d/e/1FAIpQLScibBa4dlGq6S_sXucS6nCueWwHRBGQbz86LzAl7SpXhRBhrA/viewform?usp=header" target="_blank" rel="noopener">🗡️ Apply now</a>
@@ -26,6 +24,8 @@ You can pick one main category and as many secondary ones as you like. Main appl
 - Longsword: Open, Women's
 - Sabre: Open, Women's
 - Experimental: Longsword Fechtschule
+
+There are 24 places in Open categories, 12 in Women's and Experimental.
 
 Please give the [competition rules]({{< relref "/rules" >}}) a read before you apply.
 
