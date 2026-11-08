@@ -1,0 +1,28 @@
+/* Registration call-to-action button (home and applications pages) */
+
+.register-cta {
+  display: flex;
+  justify-content: center;
+  margin: 1.5em 0;
+}
+
+.post-content a.register-button {
+  display: inline-block;
+  padding: 12px 28px;
+  border-radius: var(--radius);
+  background: var(--entry);
+  color: var(--primary);
+  font-size: 1.15em;
+  font-weight: 600;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.1s, box-shadow 0.1s;
+}
+
+.post-content a.register-button:hover {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+.post-content a.register-button:active {
+  transform: scale(0.97);
+}

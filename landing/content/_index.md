@@ -10,6 +10,10 @@ cover:
 
 # Duke's Cup 2027
 
+<div class="register-cta">
+  <a class="register-button" href="https://docs.google.com/forms/d/e/1FAIpQLScibBa4dlGq6S_sXucS6nCueWwHRBGQbz86LzAl7SpXhRBhrA/viewform?usp=header" target="_blank" rel="noopener">🗡️ Register for Duke's Cup 2027</a>
+</div>
+
 {{< include-page "events/dc_2027" >}}
 
 ---
